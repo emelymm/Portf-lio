@@ -1,0 +1,55 @@
+body {
+    display: block;
+    background-image: url("../imagens/hogwarts.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1450px 780px;
+}
+
+@font-face {
+    font-family: wizard;
+    src: url(../fontes/Wizardry\ Night.ttf);
+}
+
+div.aviso {
+    background-color: black;
+}
+
+p.aviso {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+#carta {
+    background-image: url("../imagens/papel.png");
+    padding: 80px;
+    background-repeat: no-repeat;
+    background-size: 900px 1000px;
+    height: 1000px;
+    width: 800px;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.info {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: left;
+    line-height: 7px;
+
+}
+
