@@ -14,3 +14,18 @@ h1 {
     text-align: center;
     text-shadow: 0.1em 0.1em rgb(7, 5, 5)
 }
+
+.creditos {
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+a {
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+}
