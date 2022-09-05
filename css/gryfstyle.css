@@ -1,0 +1,92 @@
+body {
+    display: block;
+    background-image: url("../imagens/grifinoria/salagryf.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1450px 780px;
+}
+
+th:hover{
+    background-color:rgba(105, 2, 2, 0.582);
+}
+
+#barra {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.funcao {
+    text-align: center; 
+}
+
+a {
+    color:white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+#intro {
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 800px;
+    padding: 50px;
+}
+
+.conteudo {
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 800px;
+    padding: 50px;
+}
+
+h1 {
+    color: rgb(138, 0, 0);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 0.1em 0.1em rgb(7, 5, 5)
+}
+
+td, p, th {
+    color: white;
+    line-height: 35px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+li {
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    width: 80px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.funcao {
+    text-align: center;
+}
+
+#inicio {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+.creditos {
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Funções Quadráticas</title>
+    <link href="../css/slystyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div id="barra">
+            <table width="1150" cellspacing="6">
+                <tr>
+                    <th><a href="../chapeuseletor.html"><img src="../imagens/sonserina/sonserina.png" width="50" height="50"></a>
+                    </th>
+                    <th><a href="introducao.html">Introdução</a></th>
+                    <th><a href="funcoesquadraticas.html">Funções Quadráticas</a></th>
+                    <th><a href="funcoesmodulares.html">Funções Modulares</a></th>
+                    <th><a href="funcoesexponenciais.html">Funções Exponenciais</a></th>
+                    <th><a href="logaritmos.html">Logaritmos</a></th>
+                    <th><a href="autoavaliacao.html">Autoavaliação</a></th>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="conteudo">
+            <br>
+            <h1>Funções Quadráticas</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;A Função Quadrática, também conhecida como função de 2°, é representada pela
+                expressão:
+            </p>
+            <p id="funcao">𝑓(𝑥) = 𝑎𝑥<sup>2</sup> + 𝑏𝑥 + 𝑐</p>
+            <br>
+            <ul>
+                <li>Uma função quádratica sempre resultará em uma parábola;</li>
+                <li>Uma função quadrática pode ter ou não raízes;</li>
+                <li>A representação da parabóla dependerá de diferentes fatores, como:</li>
+                <ul>
+                    <li>Concavidade;</li>
+                    <li>Raízes;</li>
+                    <li>Vértice;</li>
+                    <li>Interseção com o eixo y.</li>
+                </ul>
+            </ul>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;Todos os coeficientes são de extrema importância para descobrirmos esses fatores.</p>
+            <p>&nbsp;&nbsp;&nbsp;Abaixo você poderá ver a representação de uma parabóla feita no geogebra, e ao mexer
+                nos coeficientes que
+                estão no lado esquerdo poderá perceber algumas alterações nela.</p>
+            <br>
+            <br>
+            <iframe src="https://www.geogebra.org/classic/bhhmn43e?embed" width="700" height="500" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+            <br>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;O coeficiente 𝑎 está diretamente ligado com a convavidade da parábola, visto que:</p>
+            <ul>
+                <li>a &lt; 0 = concavidade virada para baixo</li>
+                <li>a &gt; 0 = concavidade virada para cima</li>
+            </ul>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;O coeficiente 𝑏 indica a inclinação da parábola no eixo y, isso levando em
+                consideração exatamente seu corte no eixo y, sem esquecer que se 𝑏 for negativo irá para o lado
+                positivo e
+                vice-versa.</p>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;O coeficiente 𝑐 não é nada mais e nada menos que o corte da parábola no eixo y.</p>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="conteudo">
+            <br>
+            <h1>Gráfico</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;Podemos construir um gráfico de função quadrática atribuindo valores ao x, porém
+                levando em consideração que para termos uma parábola precisamos dos certeiros pontos, que podemos
+                demorar
+                para encontrar, é óbvio que o ser humano acharia uma maneira mais fácil de resolver isso! Para
+                construirmos o gráfico teremos que seguir 4 passos:</p>
+            <ol>
+                <li>Descobrir a concavidade.</li>
+                <li>Descobrir as raízes, ou talvez a inexistência delas.</li>
+                <li>Descobrir a interseção no eixo y.</li>
+                <li>Descobrir as coordenadas do vértice.</li>
+            </ol>
+            <br>
+            <br>
+            <h1>1 - Descobrindo a Concavidade</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;Como explicado anteriormente, para descobrirmos a concavidade da parábola basta
+                analisarmos o valor do
+                coeficiente 𝑎. Se o 𝑎 for negativo, ou seja 𝑎 &lt; 0, a concavidade ficará voltada para cima, mas
+                caso
+                𝑎 for positivo, ou seja 𝑎 &gt; 0, a concavidade ficará voltada para baixo. </p>
+
+            <img src="../imagens/concavidade.png" width="500" height="300">
+            <br>
+            <br>
+            <h1>2 - Descobrindo as Raízes</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;As raízes são o corte da parábola no eixo x. Elas podem ser descobertas através de
+                diferentes maneiras, porém a mais conhecida é através da fórmula de bhaskára, onde:</p>
+            <img src="../imagens/bhaskara.png" width="400" height="300">
+            <p>Observação: A quantidade de raízes de uma função quadrática vai depender o valor de &Delta;, então:</p>
+            <ul>
+                <li>Se &Delta; &gt; 0, a função terá duas raízes reais diferentes;</li>
+                <li>Se &Delta; = 0, a função terá apenas uma raíz real;</li>
+                <li>Se &Delta; &lt; 0, a função não terá raízes reais.</li>
+            </ul>
+            <br>
+            <br>
+            <h1>3 - Descobrindo Interseção no Eixo Y</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;A interseção no eixo y é basicamente a coordenada onde a parábola vai cortar no eixo y, para sabermos isso basta olharmos o valor do coeficiente c, por exemplo, caso for 4 a parábola vai cortar no 4.</p>
+            <br>
+            <br>
+            <h1>4 - Descobrindo o Vértice</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;O vértice é o ponto mais alto ou mais baixo da parábola, dependendo de sua concavidade, é através dele que descobrimos o ponto máximo e o ponto minímo em questões que, por exemplo, pedem a altura máxima ou altura miníma de alguma coisa.</p>
+            <p>&nbsp;&nbsp;&nbsp;Podemos descobrir o vértice através de duas formas diferentes:</p>
+            <ul>
+                <li>Através das raízes, caso a função quadrática tiver raízes basta somar elas e depois dividir por 2, assim encontrará o X<sub>v</sub>, depois basta substituir o valor de x na função de forma geral para encontrar o Y<sub>v</sub>.</li>
+                <li>Através de uma fórmula: </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="conteudo">
+            <br>
+            <h1>Formas da Função Quadrática</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;Além de sua forma geral, a mais conhecida e utilizada, a função quadrática também possuí outras fórmulas, sendo elas a forma fatorada, onde usasse os valores das raízes, e a forma canônica, onde é utilizado a coordenada do vértice.</p>
+            <table border="1" bordercolor="white" width="700" cellpadding="1" cellspacing="1">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Equação</th>
+                        <th>Função</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col">Forma Geral</th>
+                        <td scope="col">𝑎𝑥<sup>2</sup> + 𝑏𝑥 + 𝑐 = 0</td>
+                        <td scope="col">𝑓(𝑥) = 𝑎𝑥<sup>2</sup> + 𝑏𝑥 + 𝑐</td>
+                    </tr>
+                    <tr>
+                        <th>Forma Fatorada</th>
+                        <td>𝑎(𝑥 - 𝑥<sub>1</sub>)(𝑥 - 𝑥<sub>2</sub>) = 0</td>
+                        <td>𝑓(𝑥) = 𝑎(𝑥 - 𝑥<sub>1</sub>)(𝑥 - 𝑥<sub>2</sub>)</td>
+                    </tr>
+                    <tr>
+                        <th>Forma Canônica</th>
+                        <td>𝑎(𝑥 - 𝑥<sub>v</sub>)<sup>2</sup> + y<sub>v</sub> = 0</td>
+                        <td>𝑓(𝑥) = 𝑎(𝑥 - 𝑥<sub>v</sub>)<sup>2</sup> + y<sub>v</sub></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="conteudo">
+            <br>
+            <h1>Atividades</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;</p>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="conteudo">
+            <br>
+            <h1>Considerações</h1>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;Apesar de toda a demonstração de ódio na introdução em relação a bháskara, devo dizer que apesar do tamanho desnecessário que ela ocupa no caderno nunca cheguei a ter dificuldade em resolvê-la, até porque foi um dos conteúdos que mais tive interação no último ano de ensino fundamental.  Porém, devo ressaltar que aprendi de uma forma diferente, onde atribuímos pontos para o x e pronto, indo na sorte de que seria os que precisaríamos, mas nesse ano foi muito mais fácil construir o gráfico com os passos mostrados!</p>
+            <p>&nbsp;&nbsp;&nbsp;Além disso, uma das partes que mais gostei de aprender foi poder imaginar a fórmula apenas olhando o gráfico, saber que o coeficiente a tinha relação com a concavidade(que eu nem fazia ideia que existia), que as raízes eram os cortes da parábola no eixo x e o c era o corte no eixo y, e também aprender sobre o vértice e sua grande importância em questões de vestibulares, sendo que eu nunca tinha sequer ouvido falar sobre ele enquanto aprendi anteriormente sobre as funções quadráticas. Acho que posso dizer que não tive problemas nesse conteúdo e foi o que mais gostei de aprender até agora.
+            </p>
+            <br>
+            <br>
+        </div>
+        <br>
+        <button><a href="funcoesmodulares.html">Avançar</a></button>
+        <br>
+        <br>
+        <div class="creditos">
+            <p class="creditos">Imagem de Fundo: <a class = "creditos" href="https://br.pinterest.com/pin/546976317256552742/">Link</a></p>
+            <p class="creditos">Logo da Sonserina: <a class ="creditos" href="https://harrypotterfanon.fandom.com/wiki/Slytherin">Link</a></p>
+        </div>
+    </center>
+</body>
+
+</html>
