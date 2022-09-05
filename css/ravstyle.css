@@ -1,9 +1,9 @@
 body {
-    display: block;
+    background-color: black;
     background-image: url("../imagens/corvinal/corvinal.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1450px 780px;
+    background-size: cover;
 }
 
 th:hover{
@@ -46,7 +46,7 @@ h1 {
     text-shadow: 0.1em 0.1em rgb(7, 5, 5)
 }
 
-td, p, th {
+td, p, th, legend {
     color: white;
     line-height: 35px;
     font-size: 25px;

@@ -1,9 +1,9 @@
 body {
-    display: block;
+    background-color: black;
     background-image: url("../imagens/hogwarts.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1450px 780px;
+    background-size: cover;
 }
 
 @font-face {
@@ -11,12 +11,9 @@ body {
     src: url(../fontes/Wizardry\ Night.ttf);
 }
 
-div.aviso {
+.aviso {
     background-color: black;
-}
-
-p.aviso {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 15px;
     color: white;
     text-align: center;
@@ -24,9 +21,10 @@ p.aviso {
 
 #carta {
     background-image: url("../imagens/papel.png");
-    padding: 80px;
+    padding: 150px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 900px 1000px;
+    background-size: 900px 1100px;
     height: 1000px;
     width: 800px;
 }
@@ -35,21 +33,45 @@ h1 {
     font-size: 30px;
     color: black;
     text-align: center;
+    line-height: 7px;
 }
 
 .info {
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
 }
 
 p {
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-align: left;
     line-height: 7px;
 
 }
 
+#confirmacao {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    width: 130px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
